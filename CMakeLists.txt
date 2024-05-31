@@ -9,6 +9,7 @@ project(libu2f-emu VERSION 0.0.0 LANGUAGES C CXX
 include(GNUInstallDirs)
 
 # Openssl
+set(OPENSSL_USE_STATIC_LIBS TRUE)
 find_package(OpenSSL REQUIRED)
 
 # Doxygen
